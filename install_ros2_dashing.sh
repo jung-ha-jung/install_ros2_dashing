@@ -1,9 +1,5 @@
 #!/bin/sh -e
 
-#set file execution mode and execute
-#sudo chmod +x ~/install_ros2_dashing.sh && bash ./install_ros2_dashing.sh
-
-
 #Setup Locale
 sudo locale-gen en_US en_US.UTF-8
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
