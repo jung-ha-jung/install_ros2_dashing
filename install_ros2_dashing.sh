@@ -21,7 +21,7 @@ sudo apt install ros-dashing-desktop
 
 echo "[#Environment setup]"
 echo "[#Sourcing the setup script]"
-#source /opt/ros/dashing/setup.bash
+source /opt/ros/dashing/setup.bash
 echo "[#Launching the setup script]"
 sh -c "echo \"source /opt/ros/dashing/setup.bash\" >> ~/.bashrc"
 
