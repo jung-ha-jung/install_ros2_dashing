@@ -2,7 +2,8 @@
 
 ROS2 dashing 설치 (Ubuntu 18.04)
 
-1)	ROS2 1줄 설치 방법 :
+1)	ROS2 1줄 설치 방법 
+
 $sudo wget https://raw.githubusercontent.com/jung-ha-jung/install_ros2_dashing/master/install_ros2_dashing.sh && chmod 755 ./install_ros2_dashing.sh && ./install_ros2_dashing.sh
 
 
