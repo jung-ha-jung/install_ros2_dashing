@@ -15,5 +15,4 @@ https://index.ros.org/doc/ros2/Tutorials/Colcon-Tutorial/
 -	turtlesim 설치
 https://index.ros.org/doc/ros2/Tutorials/Turtlesim/Introducing-Turtlesim/
 -	ROS2 환경 설정
-터미널 창에서 $gedit .bashrc 입력
-파일의 끝에 "source /opt/ros/dashing/setup.bash” 추가
+$gedit .bashrc 입력한 후 bash 파일의 마지막에 "source /opt/ros/dashing/setup.bash” 추가
