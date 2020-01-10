@@ -50,38 +50,7 @@ sudo apt install ros-dashing-rmw-opensplice-cpp # for OpenSplice
 echo "[#Install turtlesim]" #https://index.ros.org/doc/ros2/Tutorials/Turtlesim/Introducing-Turtlesim/
 sudo apt update
 sudo apt install ros-dashing-turtlesim
-#ros2 pkg executables turtlesim
-#Use turtlesim
-#ros2 run turtlesim turtlesim_node
-#ros2 run turtlesim turtle_teleop_key
 
 
-
-#-----------------------------------------------------------------------------------------------
 echo "[#Install colcon to build packages]"
 sudo apt install python3-colcon-common-extensions
-
-echo "[#Create example workspace]"
-mkdir -p ~/ros2_example_ws/src
-cd ~/ros2_example_ws
-
-echo "[#Add example sources]"
-git clone https://github.com/ros2/examples src/examples
-cd ~/ros2_example_ws/src/examples/
-git checkout dashing
-cd ~/ros2_example_ws
-
-echo "[#Build the workspace]"
-colcon build --symlink-install
-
-echo "[#Source the environment]"
-. install/setup.bash
-
-#Try a demo
-#ros2 run examples_rclcpp_minimal_subscriber subscriber_member_function
-
-#tmux new -s
-#ros2 run examples_rclcpp_minimal_publisher publisher_member_function
-
-#Tips
-#If you do not want to build a specific package place an empty file named COLCON_IGNORE in the directory and it will not be indexed.
