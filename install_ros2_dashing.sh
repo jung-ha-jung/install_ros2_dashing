@@ -50,7 +50,7 @@ sudo apt install ros-dashing-rmw-opensplice-cpp # for OpenSplice
 echo "[#Install turtlesim]" #https://index.ros.org/doc/ros2/Tutorials/Turtlesim/Introducing-Turtlesim/
 sudo apt update
 sudo apt install ros-dashing-turtlesim
-ros2 pkg executables turtlesim
+#ros2 pkg executables turtlesim
 #Use turtlesim
 #ros2 run turtlesim turtlesim_node
 #ros2 run turtlesim turtle_teleop_key
