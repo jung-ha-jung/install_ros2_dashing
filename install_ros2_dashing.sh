@@ -43,8 +43,8 @@ sudo apt install ros-dashing-rmw-opensplice-cpp # for OpenSplice
 
 
 #echo "[#Install additional packages using ROS 1 packages]"
-sudo apt update
-sudo apt install ros-dashing-ros1-bridge
+#sudo apt update
+#sudo apt install ros-dashing-ros1-bridge
 
 
 echo "[#Install turtlesim]" #https://index.ros.org/doc/ros2/Tutorials/Turtlesim/Introducing-Turtlesim/
