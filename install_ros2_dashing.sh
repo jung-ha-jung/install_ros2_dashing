@@ -43,8 +43,8 @@ sudo apt install ros-dashing-rmw-opensplice-cpp # for OpenSplice
 
 
 #echo "[#Install additional packages using ROS 1 packages]"
-#sudo apt update
-#sudo apt install ros-dashing-ros1-bridge
+sudo apt update
+sudo apt install ros-dashing-ros1-bridge
 
 
 echo "[#Install turtlesim]" #https://index.ros.org/doc/ros2/Tutorials/Turtlesim/Introducing-Turtlesim/
@@ -54,3 +54,8 @@ sudo apt install ros-dashing-turtlesim
 
 echo "[#Install colcon to build packages]"
 sudo apt install python3-colcon-common-extensions
+
+
+echo "[#Install ros2bag]"
+sudo apt install ros-dashing-ros2bag ros-dashing-rosbag2*
+sudo apt install ros-dashing-ros2bag ros-dashing-rosbag2-transport
