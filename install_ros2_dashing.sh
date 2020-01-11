@@ -59,3 +59,5 @@ sudo apt install python3-colcon-common-extensions
 echo "[#Install ros2bag]"
 sudo apt install ros-dashing-ros2bag ros-dashing-rosbag2*
 sudo apt install ros-dashing-ros2bag ros-dashing-rosbag2-transport
+
+
