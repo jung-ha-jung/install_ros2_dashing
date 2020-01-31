@@ -22,4 +22,5 @@ $ sudo wget https://raw.githubusercontent.com/jung-ha-jung/install_ros2_dashing/
 - ros2 bag 설치 :
 
   $ sudo apt install ros-dashing-ros2bag ros-dashing-rosbag2-transport
+
   $ sudo apt install ros-dashing-rosbag2-storage-default-plugins # ROS1과 데이터 저장방식이 달라서 플러그인을 설치해야 한다.
