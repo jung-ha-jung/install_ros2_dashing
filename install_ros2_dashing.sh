@@ -82,6 +82,42 @@ colcon build --symlink-install
 #tmux new -s
 #ros2 run examples_rclcpp_minimal_publisher publisher_member_function
 
+#echo "[#Install development tools and ROS tools]"
+sudo apt update && sudo apt install -y \
+  build-essential \
+  cmake \
+  git \
+  python3-colcon-common-extensions \
+  python3-pip \
+  python-rosdep \
+  python3-vcstool \
+  wget
+# install some pip packages needed for testing
+python3 -m pip install -U \
+  argcomplete \
+  flake8 \
+  flake8-blind-except \
+  flake8-builtins \
+  flake8-class-newline \
+  flake8-comprehensions \
+  flake8-deprecated \
+  flake8-docstrings \
+  flake8-import-order \
+  flake8-quotes \
+  pytest-repeat \
+  pytest-rerunfailures \
+  pytest \
+  pytest-cov \
+  pytest-runner \
+  setuptools
+# install Fast-RTPS dependencies
+sudo apt install --no-install-recommends -y \
+  libasio-dev \
+  libtinyxml2-dev
+# install CycloneDDS dependencies
+sudo apt install --no-install-recommends -y \
+  libcunit1-dev
+  
 
 #Tips
 #If you do not want to build a specific package place an empty file named COLCON_IGNORE in the directory and it will not be indexed.
